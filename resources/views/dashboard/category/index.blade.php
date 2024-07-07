@@ -2,13 +2,13 @@
 
 @section('content')
     <div><a href="{{ route('category.create') }}" target="_blank">Create</a></div>
-    <table>
+    <table class="table">
         <thead>
             <tr>
-                <td>Id</td>
-                <td>Title</td>
-                <td>Slug</td>
-                <td>Options</td>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Slug</th>
+                <th>Options</th>
             </tr>
         </thead>
         <tbody>
